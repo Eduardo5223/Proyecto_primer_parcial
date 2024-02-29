@@ -1,4 +1,7 @@
-
+.body, html {
+    height: 100%;
+    margin: 0;
+  }
 
 .karma-light {
     font-family: "Karma", serif;
@@ -49,14 +52,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Ocupará el 100% de la altura de la pantalla */
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
   
 .custom-section {
     color: #000000;
-    padding: 50px 300px;
+    padding: 50px 6%;
+    text-align: center;
 }
   
 .custom-section h1 {
@@ -85,9 +89,11 @@ body {
 }
 
 .custom-mid {
-    color: #000000;
-    padding: 50px 300px;
+    background-color: white;
+    padding: 50px 0; 
     padding-top: 250px;
+    padding-bottom: 250px;
+    
 }
   
 .custom-mid h1 {
@@ -112,7 +118,7 @@ body {
 
 .image-section {
     background-color: #c7c5c5;
-    padding: 50px 0; /* Ajusta el espaciado según sea necesario */
+    padding: 50px 0; 
 }
   
 .image-container {
@@ -145,8 +151,7 @@ body {
 }
   
 .image-container:hover img {
-    transform: scale(1.1); /* Ajusta el tamaño de la imagen al pasar el cursor */
-    
+    transform: scale(1.1); 
 }
   
 .image-container:hover .overlay {
@@ -160,4 +165,251 @@ body {
 
 .overlay h2{
     text-align: center;
+}
+
+.h1_bold{
+    font-family: "Karma", serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.p_bold{
+    font-family: "Karma", serif;
+    font-weight:400;
+    color: black;
+    font-size: 1.7em;
+}
+
+.form_h2{
+    text-align: left;
+}
+
+.form_p{
+    color: black;
+    text-align: center;
+}
+.p_final{
+    font-family: "Karma", serif;
+    font-weight:100;
+    color: white;
+    font-size: 20px;
+}
+
+.p_final2{
+    font-family: "Karma", serif;
+    font-weight:100;
+    color: white;
+    font-size: 15px;
+}
+.img_final{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.buttonsf{
+    width: 404px;
+}
+
+.bt{
+    width: 404px; 
+    background-color: black;
+}
+
+#h1tp{
+
+}
+
+#somos{
+    
+}
+
+#momento{
+    
+}
+
+.linkss{
+    font-size: 18px;
+    text-align: center; 
+    font-weight: 900px; 
+    color: rgb(2, 175, 255);
+}
+
+@media(max-width: 491px){
+    .buttonsf{
+        width: 200px;
+    }
+    .bt{
+        width: 200px; 
+        background-color: black;
+    }
+}
+
+@media(max-width: 733px){
+    .custom-section {
+        color: #000000;
+        padding: 250px 6%;
+        text-align: center;
+    }
+    .custom-section h1 {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        font-size: 50px;
+    }
+      
+    .custom-section p {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: white;
+        font-size: 20px;
+    }
+    .background-container {
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Img/main-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100%;
+        width: 737px;
+        display: flex;
+        align-items: center;
+    }
+
+    .custom-mid {
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 50px 0; 
+        padding-top: 250px;
+        padding-bottom: 250px;
+        align-items: center;
+        width: 737px;
+        
+    }
+      
+    .custom-mid h1 {
+        font-family: "Karma", serif;
+        font-weight: 500;
+        font-size: 40px;
+    }
+      
+    #p_bl{
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: black;
+        font-size: 25px;
+    }
+}
+@media(max-width: 561px){
+    .custom-section {
+        color: #000000;
+        padding: 250px 6%;
+        text-align: center;
+    }
+    .custom-section h1 {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        font-size: 50px;
+        text-align: center;
+    }
+      
+    .custom-section p {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .background-container {
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Img/main-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100%;
+        width: 560px;
+        display: flex;
+        align-items: center;
+    }
+    .custom-mid {
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 50px 0; 
+        padding-top: 250px;
+        padding-bottom: 250px;
+        align-items: center;
+        width: 560px;
+        
+    }
+      
+    .custom-mid h1 {
+        font-family: "Karma", serif;
+        font-weight: 500;
+        font-size: 30px;
+    }
+      
+    #p_bl{
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: black;
+        font-size: 20px;
+    }
+}
+@media(max-width: 415px){
+    .custom-section {
+        color: #000000;
+        padding: 250px 6%;
+        text-align: center;
+    }
+    .custom-section h1 {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        font-size: 50px;
+        text-align: center;
+    }
+      
+    .custom-section p {
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .background-container {
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Img/main-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100%;
+        width: 420px;
+        display: flex;
+        align-items: center;
+    }
+    .custom-mid {
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 50px 0; 
+        padding-top: 250px;
+        padding-bottom: 250px;
+        align-items: center;
+        width: 420px;
+        
+    }
+      
+    .custom-mid h1 {
+        font-family: "Karma", serif;
+        font-weight: 500;
+        font-size: 30px;
+    }
+      
+    #p_bl{
+        font-family: "Karma", serif;
+        font-weight: 200;
+        color: black;
+        font-size: 20px;
+    }
 }

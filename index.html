@@ -21,19 +21,19 @@
               </button>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item lipadding">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#h1tp">Home</a>
                     </li>
                     <li class="nav-item lipadding">
-                        <a class="nav-link active" href="#">Nosotros</a>
+                        <a class="nav-link active" href="#somos">Nosotros</a>
                     </li>
                     <li class="nav-item lastli">
-                      <a class="nav-link active" href="#" >Noticias</a>
+                      <a class="nav-link active" href="#momento" >Noticias</a>
                     </li>
                   </ul>
                 </div>
@@ -41,41 +41,41 @@
             </div>
           </nav>
     </header>
-    <div class="background-container">
-      <section class="custom-section">
+    <section class="background-container" id="h1tp">
+      <div class="container custom-section">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="dynamo">Digital<span class="change_white"> Dynamo</span></h1>
+            <br>
+            <p class="dynamo">Descubre cómo la tecnología está transformando nuestras vidas y dando forma al futuro. Bienvenido a un viaje fascinante de conocimiento tecnológico.</p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="custom-mid" id="somos">
         <div class="container">
-          <div class="row">
-            <div class="col-md-19 text-center">
-              <h1>Digital<span class="change_white"> Dynamo</span></h1>
-              <br>
-              <p>Descubre cómo la tecnología está transformando nuestras vidas y dando forma al futuro. Bienvenido a un viaje fascinante de conocimiento tecnológico.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-19 text-center" style="padding-bottom: 20px;">
+                <h1>¿Quiénes Somos?</h1>
+                <br>
+                <p id="p_bl">En Digital Dynamo, nos dedicamos a ofrecer información tecnológica precisa, relevante y accesible. Nuestra misión es ser tu guía confiable en el cambiante panorama tecnológico, brindándote conocimientos que inspiren y empoderen.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-    </div>
-    <div class="div_mid">
-      <section class="custom-mid">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-19 text-center">
-              <h1>¿Quiénes Somos?</h1>
-              <br>
-              <p id="p_bl">En Digital Dynamo, nos dedicamos a ofrecer información tecnológica precisa, relevante y accesible. Nuestra misión es ser tu guía confiable en el cambiante panorama tecnológico, brindándote conocimientos que inspiren y empoderen.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
     <!-- Seccion de cuatro imagenes -->
-    <section class="image-section">
+    <section class="image-section" id="momento">
       <div class="container">
         <div class="container">
           <div class="row">
             <div class="col-md-19 text-center" style="padding-bottom: 20px;">
-              <h1>Lo ultimo del momento</h1>
               <br>
-              <p id="p_bl">En Digital Dynamo, nos dedicamos a ofrecer información tecnológica precisa, relevante y accesible. Nuestra misión es ser tu guía confiable en el cambiante panorama tecnológico, brindándote conocimientos que inspiren y empoderen.</p>
+              <br>
+              <h1 class="h1_bold" >Lo ultimo del momento</h1>
+              <br>
+              <p class="p_bold">En Digital Dynamo, nos dedicamos a ofrecer información tecnológica precisa, relevante y accesible. Nuestra misión es ser tu guía confiable en el cambiante panorama tecnológico, brindándote conocimientos que inspiren y empoderen.</p>
             </div>
           </div>
         </div>
@@ -87,6 +87,7 @@
                 <div class="row">
                   <h2>Apple Vision Pro</h2>
                   <p>Los Apple Vision Pro son un producto sorprendente, que lleva la inmersión digital de los usuarios mucho más allá que la computadora personal, aunque varias de sus principales características son también fuente de problemas más profundos.</p>
+                  <a href="./visionpro.html" class="nav-link active linkss" target="_blank">saber mas</a>
                 </div>
               </div>
             </div>
@@ -98,6 +99,7 @@
                 <div class="row">
                   <h2>Rabbit R1</h2>
                   <p>Rabbit R1 es un asistente personal, alimentado por AI, promete una manera más intuitiva y directa de interactuar con nuestras aplicaciones y servicios digitales preferidos.</p>
+                  <a href="./visionpro.html" class="nav-link active linkss" target="_blank">saber mas</a>
                 </div>
               </div>
             </div>
@@ -109,6 +111,7 @@
                 <div class="row">
                   <h2>RTX Series 4000 Super</h2>
                   <p>Las tarjetas gráficas GeForce RTX 40 SUPER de NVIDIA ya están aquí. Y no van a dejar a nadie indiferente</p>
+                  <a href="./visionpro.html" class="nav-link active linkss" target="_blank">saber mas</a>
                 </div>
               </div>
             </div>
@@ -120,6 +123,7 @@
                 <div class="row">
                   <h2>CES 2024</h2>
                   <p>La edición 2024 del Consumer Electronic Show (CES) fue inaugurada oficialmente. Se trata de la feria de tecnología más importante a nivel mundial en donde las empresas revelan sus productos, servicios y prototipos más avanzados con la intención de marcar las tendencias de la industria para los siguientes 12 meses.</p>
+                  <a href="./visionpro.html" class="nav-link active linkss" target="_blank">saber mas</a>
                 </div>
               </div>
             </div>
@@ -127,7 +131,50 @@
         </div>
       </div>
     </section>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam esse hic temporibus a libero eligendi alias nesciunt tempora sapiente. Fugiat in sequi fugit doloremque suscipit eveniet quo! Itaque, libero facilis?</h1>
+    <section class="custom-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="form_h2">Te gustaria colaborar con nosotros?</h2>
+            <p style="color: black; text-align: left; font-size: 20px">Si quisieras elaborar Noticias para nosotros y formar parte de este gran equipo, llena el siguiente formulario</p>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-3 align-items-center">
+              <div class="col-auto">
+                <input type="text"  placeholder="Nombre">
+              </div>
+              <div class="col-auto">
+                <input type="text"  placeholder="Apellido">
+              </div>
+              <h1></h1>
+              <div class="col-auto">
+                <input type="text" placeholder="Correo"class="buttonsf">
+              </div>
+              <h1></h1>
+              <div class="col-auto">
+                <input type="text" placeholder="Telefono" class="buttonsf">
+              </div>
+              <h1></h1>
+              <div class="col-auto">
+                <button class="bt"><span style="color: white; border: none;">Enviar</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="text-center" style="background-color: black;">
+        <br>
+        <p class="p_final">DigitalDynamo</p>
+        <p class="p_final2">Encuentranos en</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com" target="_blank"><img src="./Img/instagram.png" alt="ERROR Instagram" class="img_final"></a>
+          <a href="https://www.facebook.com" target="_blank"><img src="./Img/facebook.png" alt="ERROR Facebook" class="img_final"></a>
+          <a href="https://www.linkedin.com" target="_blank"><img src="./Img/linkedin.png" alt="ERROR LinkedIn" class="img_final"></a>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
 
